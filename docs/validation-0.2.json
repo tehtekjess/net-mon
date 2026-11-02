@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "automated_checks": 75,
+  "demo_checks": 8,
+  "live_checks": {
+    "test": "Live WFP process/endpoint attribution",
+    "expected": 4,
+    "observed": 4,
+    "passed": true,
+    "collector": {
+      "errors": 0,
+      "message": "Subscribed to WFP audit events",
+      "subscribed": true
+    },
+    "audit_enabled": true,
+    "dropped": 0,
+    "storage_error": ""
+  },
+  "excluded_review_rows": 0,
+  "collector": {
+    "errors": 0,
+    "message": "Subscribed to WFP audit events",
+    "subscribed": true
+  },
+  "dropped": 0,
+  "service_private_bytes": 4808704,
+  "tray_private_bytes": 53321728,
+  "tray_working_set_bytes": 65990656,
+  "country_database_sha256": "5E968A64A29B973F794C5ABC46D0711A0BA87C8A16C411E1CD70312DB7A5D4E1"
+}

@@ -1,0 +1,14 @@
+{
+  "test": "Live WFP process/endpoint attribution",
+  "expected": 4,
+  "observed": 4,
+  "passed": true,
+  "collector": {
+    "errors": 0,
+    "message": "Subscribed to WFP audit events",
+    "subscribed": true
+  },
+  "audit_enabled": true,
+  "dropped": 0,
+  "storage_error": ""
+}

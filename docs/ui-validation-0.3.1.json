@@ -1,0 +1,60 @@
+{
+  "action_groups": {
+    "paint_after_select_row": {
+      "count": 44,
+      "max_ms": 6.5222,
+      "p95_ms": 2.0587
+    },
+    "paint_after_switch_view_tab": {
+      "count": 15,
+      "max_ms": 1.6946,
+      "p95_ms": 1.3051
+    },
+    "select_row": {
+      "count": 44,
+      "max_ms": 2.5214,
+      "p95_ms": 2.283
+    },
+    "switch_view_tab": {
+      "count": 15,
+      "max_ms": 9.2418,
+      "p95_ms": 7.0939
+    }
+  },
+  "control_actions": {
+    "count": 59,
+    "max_ms": 9.2408,
+    "p95_ms": 4.803
+  },
+  "live_service": true,
+  "posted_message_latency": {
+    "count": 477,
+    "max_ms": 4.753,
+    "p95_ms": 0.126
+  },
+  "request_errors": {},
+  "scope": "Complete visible production window; internal control actions, read-only service requests; no injected mouse input",
+  "selections": 44,
+  "slow_handlers": [
+    {
+      "max_ms": 28.6925,
+      "message": 1
+    },
+    {
+      "max_ms": 10.9799,
+      "message": 5
+    }
+  ],
+  "tab_checks": 15,
+  "view_changes": 15,
+  "view_result_latency": {
+    "count": 15,
+    "max_ms": 231.9174,
+    "p95_ms": 15.8742
+  },
+  "window_handlers": {
+    "count": 3325,
+    "max_ms": 28.6925,
+    "p95_ms": 0.0253
+  }
+}

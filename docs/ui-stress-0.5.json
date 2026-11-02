@@ -1,0 +1,113 @@
+{
+  "action_groups": {
+    "": {
+      "count": 1,
+      "max_ms": 0.038,
+      "p95_ms": 0.038
+    },
+    "map_country": {
+      "count": 5,
+      "max_ms": 0.8436,
+      "p95_ms": 0.8199
+    },
+    "map_zoom": {
+      "count": 5,
+      "max_ms": 1.2305,
+      "p95_ms": 1.1756
+    },
+    "paint_after_": {
+      "count": 1,
+      "max_ms": 0.0352,
+      "p95_ms": 0.0352
+    },
+    "paint_after_map_country": {
+      "count": 5,
+      "max_ms": 4.4809,
+      "p95_ms": 3.379
+    },
+    "paint_after_map_zoom": {
+      "count": 5,
+      "max_ms": 32.2898,
+      "p95_ms": 24.2495
+    },
+    "paint_after_select_row": {
+      "count": 29,
+      "max_ms": 1.2879,
+      "p95_ms": 1.2306
+    },
+    "paint_after_switch_view": {
+      "count": 15,
+      "max_ms": 18.2227,
+      "p95_ms": 16.4835
+    },
+    "paint_after_theme": {
+      "count": 4,
+      "max_ms": 53.304,
+      "p95_ms": 47.5009
+    },
+    "select_row": {
+      "count": 29,
+      "max_ms": 1.2387,
+      "p95_ms": 1.1808
+    },
+    "switch_view": {
+      "count": 15,
+      "max_ms": 21.6679,
+      "p95_ms": 21.5618
+    },
+    "theme": {
+      "count": 4,
+      "max_ms": 34.3098,
+      "p95_ms": 23.4272
+    }
+  },
+  "cancelled_stale_queries": 2,
+  "control_actions": {
+    "count": 59,
+    "max_ms": 34.3092,
+    "p95_ms": 21.667
+  },
+  "live_service": false,
+  "posted_message_latency": {
+    "count": 479,
+    "max_ms": 58.7016,
+    "p95_ms": 4.8835
+  },
+  "scope": "Complete visible production window; internal control actions, read-only service requests; no injected mouse input",
+  "selections": 29,
+  "slow_handlers": [
+    {
+      "max_ms": 50.0051,
+      "message": 1
+    },
+    {
+      "max_ms": 51.2893,
+      "message": 2
+    },
+    {
+      "max_ms": 33.2377,
+      "message": 273
+    },
+    {
+      "max_ms": 13.3965,
+      "message": 792
+    },
+    {
+      "max_ms": 14.109,
+      "message": 32769
+    }
+  ],
+  "stress": true,
+  "tab_checks": 15,
+  "view_changes": 15,
+  "view_result_latency": {
+    "count": 15,
+    "max_ms": 288.2488,
+    "p95_ms": 57.0426
+  },
+  "window_handlers": {
+    "count": 3038,
+    "max_ms": 51.2893,
+    "p95_ms": 1.6236
+  }
+}

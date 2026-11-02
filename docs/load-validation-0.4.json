@@ -1,0 +1,21 @@
+{
+  "test": "Local IPv4 TCP load, current retention settings",
+  "requested_rate": 100,
+  "generated": 3000,
+  "generation_seconds": 30,
+  "observation_seconds": 33.048,
+  "received_delta": 3050,
+  "processed_delta": 3050,
+  "dropped_delta": 0,
+  "collector_errors_delta": 0,
+  "service_cpu_milliseconds": 344,
+  "service_cpu_percent_one_core": 1.041,
+  "service_private_bytes": 6553600,
+  "service_working_set_bytes": 15417344,
+  "queue_bytes": 0,
+  "storage_error": "",
+  "passed": true,
+  "tray_window": "Opened on interactive desktop via computer-use launch; accessibility inspector detached",
+  "tray_cpu_percent_one_core": 3.536,
+  "tray_private_bytes": 41558016
+}

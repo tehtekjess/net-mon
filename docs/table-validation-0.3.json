@@ -1,0 +1,8 @@
+{
+  "benchmark_scope": "Hidden native control; excludes desktop painting and input delivery",
+  "checks": 20,
+  "passed": true,
+  "selection_max_ms": 0.495,
+  "selection_operations": 1000,
+  "selection_p95_ms": 0.2483
+}

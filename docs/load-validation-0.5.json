@@ -1,0 +1,23 @@
+{
+  "test": "Local IPv4 TCP load, current retention settings",
+  "requested_rate": 100,
+  "generated": 2999,
+  "generation_seconds": 30,
+  "observation_seconds": 33.039,
+  "received_delta": 3036,
+  "processed_delta": 3036,
+  "dropped_delta": 0,
+  "collector_errors_delta": 0,
+  "service_cpu_milliseconds": 468,
+  "service_cpu_percent_one_core": 1.417,
+  "service_private_bytes": 7385088,
+  "service_working_set_bytes": 15634432,
+  "queue_bytes": 0,
+  "storage_error": "",
+  "passed": true,
+  "tray_cpu_milliseconds": 796.875,
+  "tray_cpu_percent_one_core": 2.412,
+  "tray_private_bytes": 31825920,
+  "tray_working_set_bytes": 45584384,
+  "tray_state": "Final installed 0.5.0, Recent activity window visible; computer-use helper reset before measurement"
+}

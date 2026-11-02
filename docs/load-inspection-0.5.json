@@ -1,0 +1,23 @@
+{
+  "test": "Local IPv4 TCP load, current retention settings",
+  "requested_rate": 100,
+  "generated": 3000,
+  "generation_seconds": 30,
+  "observation_seconds": 33.036,
+  "received_delta": 3050,
+  "processed_delta": 3050,
+  "dropped_delta": 0,
+  "collector_errors_delta": 0,
+  "service_cpu_milliseconds": 375,
+  "service_cpu_percent_one_core": 1.135,
+  "service_private_bytes": 6373376,
+  "service_working_set_bytes": 15364096,
+  "queue_bytes": 0,
+  "storage_error": "",
+  "passed": true,
+  "tray_cpu_milliseconds": 29984.375,
+  "tray_cpu_percent_one_core": 90.763,
+  "tray_private_bytes": 43966464,
+  "tray_working_set_bytes": 56725504,
+  "tray_state": "Computer-use helper active after launch/list_windows; no explicit tree query in this run. Resetting the helper reduced a subsequent idle sample to 0.94% of one core. Do not use this result as normal app overhead."
+}

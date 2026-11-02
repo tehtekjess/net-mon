@@ -1,0 +1,16 @@
+{
+  "version": "0.5.0",
+  "configuration_preserved": true,
+  "installed_binaries_and_data_match": true,
+  "ctest_suites_passed": 6,
+  "core_checks": 130,
+  "table_checks": 25,
+  "tray_checks": 14,
+  "client_checks": 45,
+  "diagnostic_checks": 4,
+  "map_checks": 21,
+  "native_preview_checks": 12,
+  "live_capture_checks_passed": 4,
+  "passed": true,
+  "installed_ui_sha256": "4da7f8a4ad193f6bb977b316ba42554611a986d9df37ff2576e699994e983ff5"
+}

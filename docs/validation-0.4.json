@@ -1,0 +1,30 @@
+{
+  "version": "0.4.0",
+  "live_capture": {
+    "test": "Live WFP process/endpoint attribution",
+    "expected": 4,
+    "observed": 4,
+    "passed": true,
+    "collector": {
+      "errors": 0,
+      "message": "Subscribed to WFP audit events",
+      "subscribed": true
+    },
+    "audit_enabled": true,
+    "dropped": 0,
+    "storage_error": ""
+  },
+  "configuration_preserved": true,
+  "installed_hashes": [
+    {
+      "file": "netmon.exe",
+      "sha256": "C55D8AFDF3EA9FEE74778E476D159C871E43C62C7388C9B4F8BD71B77616DDE6",
+      "matches": true
+    },
+    {
+      "file": "netmon_service.exe",
+      "sha256": "123F75894087EAEC2635CB715682CD1431E53FA3C4DE189C18697B58511EF774",
+      "matches": true
+    }
+  ]
+}

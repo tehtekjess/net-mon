@@ -1,0 +1,18 @@
+{
+  "test": "Local IPv4 TCP load, current retention settings",
+  "requested_rate": 100,
+  "generated": 3000,
+  "generation_seconds": 30,
+  "observation_seconds": 33.037,
+  "received_delta": 3072,
+  "processed_delta": 3072,
+  "dropped_delta": 0,
+  "collector_errors_delta": 0,
+  "service_cpu_milliseconds": 625,
+  "service_cpu_percent_one_core": 1.892,
+  "service_private_bytes": 4161536,
+  "service_working_set_bytes": 12804096,
+  "queue_bytes": 0,
+  "storage_error": "",
+  "passed": true
+}

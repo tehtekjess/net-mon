@@ -1,0 +1,69 @@
+{
+  "action_groups": {
+    "paint_after_select_row": {
+      "count": 45,
+      "max_ms": 1.9253,
+      "p95_ms": 1.8567
+    },
+    "paint_after_switch_view_tab": {
+      "count": 15,
+      "max_ms": 1.3098,
+      "p95_ms": 1.2923
+    },
+    "select_row": {
+      "count": 45,
+      "max_ms": 2.0617,
+      "p95_ms": 1.8819
+    },
+    "switch_view_tab": {
+      "count": 15,
+      "max_ms": 5.7653,
+      "p95_ms": 5.6966
+    }
+  },
+  "cancelled_stale_queries": 0,
+  "control_actions": {
+    "count": 60,
+    "max_ms": 5.7649,
+    "p95_ms": 5.5926
+  },
+  "live_service": true,
+  "posted_message_latency": {
+    "count": 480,
+    "max_ms": 6.7395,
+    "p95_ms": 0.191
+  },
+  "scope": "Complete visible production window; internal control actions, read-only service requests; no injected mouse input",
+  "selections": 45,
+  "slow_handlers": [
+    {
+      "max_ms": 22.5894,
+      "message": 1
+    },
+    {
+      "max_ms": 14.429,
+      "message": 2
+    },
+    {
+      "max_ms": 15.0098,
+      "message": 5
+    },
+    {
+      "max_ms": 14.2234,
+      "message": 32769
+    }
+  ],
+  "stress": false,
+  "tab_checks": 15,
+  "view_changes": 15,
+  "view_result_latency": {
+    "count": 15,
+    "max_ms": 229.0021,
+    "p95_ms": 24.4087
+  },
+  "window_handlers": {
+    "count": 3489,
+    "max_ms": 22.5894,
+    "p95_ms": 0.0063
+  }
+}

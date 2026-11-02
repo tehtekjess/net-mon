@@ -1,0 +1,105 @@
+{
+  "action_groups": {
+    "": {
+      "count": 1,
+      "max_ms": 0.011,
+      "p95_ms": 0.011
+    },
+    "map_country": {
+      "count": 5,
+      "max_ms": 3.6216,
+      "p95_ms": 3.3659
+    },
+    "map_zoom": {
+      "count": 5,
+      "max_ms": 1.1766,
+      "p95_ms": 1.0932
+    },
+    "paint_after_": {
+      "count": 1,
+      "max_ms": 0.0088,
+      "p95_ms": 0.0088
+    },
+    "paint_after_map_country": {
+      "count": 5,
+      "max_ms": 6.4225,
+      "p95_ms": 5.5844
+    },
+    "paint_after_map_zoom": {
+      "count": 5,
+      "max_ms": 37.254,
+      "p95_ms": 22.2024
+    },
+    "paint_after_select_row": {
+      "count": 29,
+      "max_ms": 1.5315,
+      "p95_ms": 1.4577
+    },
+    "paint_after_switch_view": {
+      "count": 15,
+      "max_ms": 16.9688,
+      "p95_ms": 15.5958
+    },
+    "paint_after_theme": {
+      "count": 4,
+      "max_ms": 63.0538,
+      "p95_ms": 36.8109
+    },
+    "select_row": {
+      "count": 29,
+      "max_ms": 1.2909,
+      "p95_ms": 1.229
+    },
+    "switch_view": {
+      "count": 15,
+      "max_ms": 20.4588,
+      "p95_ms": 18.2163
+    },
+    "theme": {
+      "count": 4,
+      "max_ms": 24.0325,
+      "p95_ms": 21.8659
+    }
+  },
+  "cancelled_stale_queries": 0,
+  "control_actions": {
+    "count": 59,
+    "max_ms": 24.0316,
+    "p95_ms": 18.2158
+  },
+  "live_service": true,
+  "posted_message_latency": {
+    "count": 477,
+    "max_ms": 70.2345,
+    "p95_ms": 5.7686
+  },
+  "scope": "Complete visible production window; internal control actions, read-only service requests; no injected mouse input",
+  "selections": 29,
+  "slow_handlers": [
+    {
+      "max_ms": 48.5458,
+      "message": 1
+    },
+    {
+      "max_ms": 18.3631,
+      "message": 2
+    },
+    {
+      "max_ms": 23.099,
+      "message": 273
+    }
+  ],
+  "stress": false,
+  "tab_checks": 15,
+  "view_changes": 15,
+  "view_result_latency": {
+    "count": 15,
+    "max_ms": 274.0504,
+    "p95_ms": 38.4245
+  },
+  "window_handlers": {
+    "count": 3599,
+    "max_ms": 48.5458,
+    "p95_ms": 0.0362
+  }
+}

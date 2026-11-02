@@ -1,0 +1,64 @@
+{
+  "action_groups": {
+    "close_dropdown_and_switch_view": {
+      "count": 15,
+      "max_ms": 9.4605,
+      "p95_ms": 9.3574
+    },
+    "open_dropdown": {
+      "count": 15,
+      "max_ms": 186.8116,
+      "p95_ms": 186.2482
+    },
+    "paint_after_close_dropdown_and_switch_view": {
+      "count": 15,
+      "max_ms": 2.1942,
+      "p95_ms": 2.1687
+    },
+    "paint_after_open_dropdown": {
+      "count": 15,
+      "max_ms": 0.1008,
+      "p95_ms": 0.0908
+    },
+    "paint_after_select_row": {
+      "count": 30,
+      "max_ms": 2.1425,
+      "p95_ms": 1.8677
+    },
+    "select_row": {
+      "count": 30,
+      "max_ms": 2.2161,
+      "p95_ms": 2.1956
+    }
+  },
+  "control_actions": {
+    "count": 60,
+    "max_ms": 186.811,
+    "p95_ms": 182.2486
+  },
+  "dropdown_checks": 15,
+  "posted_message_latency": {
+    "count": 478,
+    "max_ms": 188.0,
+    "p95_ms": 125.0
+  },
+  "scope": "Complete visible production window; internal control actions, read-only service requests; no injected mouse input",
+  "selections": 30,
+  "shell": {
+    "count": 19,
+    "max_ms": 13.2051,
+    "p95_ms": 7.2734
+  },
+  "slow_handlers": [
+    {
+      "max_ms": 49.3824,
+      "message": 1
+    }
+  ],
+  "view_changes": 15,
+  "window_handlers": {
+    "count": 4017,
+    "max_ms": 49.3824,
+    "p95_ms": 0.0366
+  }
+}

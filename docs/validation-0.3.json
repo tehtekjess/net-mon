@@ -1,0 +1,36 @@
+{
+  "version": "0.3.0",
+  "core_checks": 116,
+  "table_checks": {
+    "benchmark_scope": "Hidden native control; excludes desktop painting and input delivery",
+    "checks": 20,
+    "passed": true,
+    "selection_max_ms": 0.495,
+    "selection_operations": 1000,
+    "selection_p95_ms": 0.2483
+  },
+  "demo_checks": 8,
+  "live": {
+    "test": "Live WFP process/endpoint attribution",
+    "expected": 4,
+    "observed": 4,
+    "passed": true,
+    "collector": {
+      "errors": 0,
+      "message": "Subscribed to WFP audit events",
+      "subscribed": true
+    },
+    "audit_enabled": true,
+    "dropped": 0,
+    "storage_error": ""
+  },
+  "local_rows_in_review": 0,
+  "collector": {
+    "errors": 0,
+    "message": "Subscribed to WFP audit events",
+    "subscribed": true
+  },
+  "dropped": 0,
+  "review_network_error": "",
+  "storage_error": ""
+}
